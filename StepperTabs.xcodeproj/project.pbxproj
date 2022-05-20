@@ -15,7 +15,8 @@
 		4A5807AE2837870500484040 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5807AD2837870500484040 /* ContentView.swift */; };
 		4A5807B02837870700484040 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A5807AF2837870700484040 /* Assets.xcassets */; };
 		4A5807B32837870700484040 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A5807B22837870700484040 /* Preview Assets.xcassets */; };
-		4A5807B828378ACD00484040 /* StepperTabs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5807B728378ACD00484040 /* StepperTabs.swift */; };
+		4A5807B828378ACD00484040 /* StepperTabsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5807B728378ACD00484040 /* StepperTabsView.swift */; };
+		4A5807D62837A6D400484040 /* Implementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5807D52837A6D400484040 /* Implementation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +40,8 @@
 		4A5807AD2837870500484040 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4A5807AF2837870700484040 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4A5807B22837870700484040 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		4A5807B728378ACD00484040 /* StepperTabs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperTabs.swift; sourceTree = "<group>"; };
+		4A5807B728378ACD00484040 /* StepperTabsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperTabsView.swift; sourceTree = "<group>"; };
+		4A5807D52837A6D400484040 /* Implementation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Implementation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,7 +95,7 @@
 			children = (
 				4A58078E2837863200484040 /* StepperTabs.h */,
 				4A58078F2837863200484040 /* StepperTabs.docc */,
-				4A5807B728378ACD00484040 /* StepperTabs.swift */,
+				4A5807B728378ACD00484040 /* StepperTabsView.swift */,
 			);
 			path = StepperTabs;
 			sourceTree = "<group>";
@@ -113,6 +115,7 @@
 				4A5807AD2837870500484040 /* ContentView.swift */,
 				4A5807AF2837870700484040 /* Assets.xcassets */,
 				4A5807B12837870700484040 /* Preview Content */,
+				4A5807D52837A6D400484040 /* Implementation.swift */,
 			);
 			path = StepperTabsExample;
 			sourceTree = "<group>";
@@ -265,7 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4A5807902837863200484040 /* StepperTabs.docc in Sources */,
-				4A5807B828378ACD00484040 /* StepperTabs.swift in Sources */,
+				4A5807B828378ACD00484040 /* StepperTabsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +285,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4A5807AE2837870500484040 /* ContentView.swift in Sources */,
+				4A5807D62837A6D400484040 /* Implementation.swift in Sources */,
 				4A5807AC2837870500484040 /* StepperTabsExampleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

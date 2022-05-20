@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct StepperTabs: View {
+struct StepperTabsView: View {
     
     @Binding var stepperData: StepperData
     var isUserInputEnabled: Bool
