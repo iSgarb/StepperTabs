@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+@available(iOS 13.0, tvOS 13.0, macOS 10.15, watchOS 6.0, *)
 struct StepperTabsView: View {
     
     @Binding var stepperData: StepperData
@@ -105,6 +106,7 @@ struct StepperTabsView: View {
     }
 }
 
+@available(iOS 13.0, tvOS 13.0, macOS 10.15, watchOS 6.0, *)
 struct StepperData{
     let steps: [String]
     var selectedStep: Int = 0{
@@ -140,6 +142,7 @@ struct StepperData{
     }
 }
 
+@available(iOS 13.0, tvOS 13.0, macOS 10.15, watchOS 6.0, *)
 private extension View{
     
     /**

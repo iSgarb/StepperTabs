@@ -94,8 +94,8 @@
 			isa = PBXGroup;
 			children = (
 				4A58078E2837863200484040 /* StepperTabs.h */,
-				4A58078F2837863200484040 /* StepperTabs.docc */,
 				4A5807B728378ACD00484040 /* StepperTabsView.swift */,
+				4A58078F2837863200484040 /* StepperTabs.docc */,
 			);
 			path = StepperTabs;
 			sourceTree = "<group>";
